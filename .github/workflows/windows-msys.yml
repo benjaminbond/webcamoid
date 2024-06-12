@@ -1,6 +1,6 @@
 name: Windows MSYS
 
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 env:
   NJOBS: 4
